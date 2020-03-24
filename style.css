@@ -1,3 +1,9 @@
 .card-img-overlay {
     top: unset;
 }
+#man-bg {
+    background-image: url('https://images.pexels.com/photos/2897883/pexels-photo-2897883.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    background-size: cover;
+    background-position: center;
+
+}
