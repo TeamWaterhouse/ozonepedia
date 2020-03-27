@@ -8,10 +8,6 @@ li.nav-item {
     background-image: url('https://images.pexels.com/photos/2897883/pexels-photo-2897883.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
     background-size: cover;
     background-position: center;
-
-}
-.caraosen-inner, .carousel-item {
-    height: 600px;
 }
 header {
     position: relative;
@@ -26,25 +22,25 @@ div#header-blk {
 }
 @media screen and (max-width: 575px) { 
     #header-blk {
-        padding-top: 5%;
-        margin-left: 10%;
-        margin-right: 10%;
+        padding-top: 3%;
+        margin-left: 5%;
+        margin-right: 5%;
     } 
     .caraosen-inner, .carousel-item {
-        height: 600px;
+        height: 300px;
     }
     header h1 {
-        font-size: 2rem;
+        font-size: 1.6rem;
     }
     header p {
-        font-size: 0.6rem;
+        font-size: 0.5rem;
     }
     #header-bottom {
-        position: absolute;
-        width: 100%;
-        z-index: 20;
-        margin-top: -200px;
-        margin-bottom: 300px;
+        padding-top: 0;
+    }
+    section {
+        padding-top: 50px !important;
+        padding-bottom: 50px !important;
     }
   }
 @media screen and (min-width: 576px) {
@@ -53,18 +49,31 @@ div#header-blk {
         margin-left: 10%;
         margin-right: 10%;
     } 
+    .caraosen-inner, .carousel-item {
+        height: 400px;
+    }
     header h1 {
         font-size: 3rem;
     }
     #header-bottom {
-        position: absolute;
+        position: relative;
         width: 100%;
-        z-index: 20;
-        margin-top: -200px;
-        margin-bottom: 300px;
+        z-index: 0;
+        margin-top: 0;
+        margin-bottom: 100px;
     }
     #header-bottom-next {
-        padding-top: 250px;
+        padding-top: 0px;
+    }
+    #header-bottom {
+        position: relative;
+        width: auto;
+        margin-bottom: 0;
+        padding-top: 0;
+    }
+    section {
+        padding-top: 75px !important;
+        padding-bottom: 75px !important;
     }
   }
   @media screen and (min-width: 768px) {
@@ -73,6 +82,9 @@ div#header-blk {
           margin-left: 10%;
           margin-right: 10%;
       } 
+      .caraosen-inner, .carousel-item {
+          height: 550px;
+      }
       header h1 {
           font-size: 4rem;
       }
@@ -84,7 +96,7 @@ div#header-blk {
           margin-bottom: 300px;
       }
       #header-bottom-next {
-          padding-top: 250px;
+          padding-top: 200px !important;
       }
     }
 header h1, header p {
@@ -102,7 +114,7 @@ section {
     filter: invert(100%);    
 }
 .btn {
-    padding: 7px 40px;
+    padding: 7px 30px;
     border-radius: 20px;
 }
 .btn-warning {
