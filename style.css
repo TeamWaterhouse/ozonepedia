@@ -1,3 +1,6 @@
+h1, h2, h3, h4, p {
+    font-family: 'Barlow', sans-serif !important;
+}
 li.nav-item {
     margin: auto 5px;
 }
@@ -42,6 +45,9 @@ div#header-blk {
         padding-top: 50px !important;
         padding-bottom: 50px !important;
     }
+    .mandp {
+        margin: 5%;
+    }
   }
 @media screen and (min-width: 576px) {
     #header-blk {
@@ -75,6 +81,9 @@ div#header-blk {
         padding-top: 75px !important;
         padding-bottom: 75px !important;
     }
+    .mandp {
+        margin: 6%;
+    }
   }
   @media screen and (min-width: 768px) {
       #header-blk {
@@ -97,6 +106,9 @@ div#header-blk {
       }
       #header-bottom-next {
           padding-top: 200px !important;
+      }
+      .mandp {
+          margin: 8%;
       }
     }
 header h1, header p {
