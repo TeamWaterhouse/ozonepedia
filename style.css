@@ -126,6 +126,14 @@ section {
 .badge-warning {
     background-color: #ffce60 !important;
 }
+.card-img-overlay {
+    /* background-color: #00000080; */
+    background: rgb(0,0,0);
+    background: -moz-linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.2) 20%, rgba(0,0,0,0.55) 45%, rgba(0,0,0,0.75) 75%);
+    background: -webkit-linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.2) 20%, rgba(0,0,0,0.55) 45%, rgba(0,0,0,0.75) 75%);
+    background: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.2) 20%, rgba(0,0,0,0.55) 45%, rgba(0,0,0,0.75) 75%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#000000",GradientType=1);
+}
 .card-no-line {
     background: #fff0;
     border-radius: 0;
@@ -145,7 +153,19 @@ section {
 .muted-bg {
     background-color: #ededed;
 }
+.bg-dark {
+    background-color: #2e2821 !important;
+}
 .white-muted-bg {
     background: rgb(255,255,255);
     background: linear-gradient(180deg, rgba(255,255,255,1) 80%, rgba(237,237,237,1) 80%); 
+}
+hr {
+    width: 0px;
+    @transition(.3s width ease-in-out);
+    &.card:hover hr {
+        width: 200px;
+        float: left;
+        border-top: 4px solid #ffce60;
+    }
 }
