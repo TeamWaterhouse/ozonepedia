@@ -161,11 +161,19 @@ section {
     background: linear-gradient(180deg, rgba(255,255,255,1) 80%, rgba(237,237,237,1) 80%); 
 }
 hr {
-    width: 0px;
-    @transition(.3s width ease-in-out);
-    &.card:hover hr {
-        width: 200px;
-        float: left;
-        border-top: 4px solid #ffce60;
-    }
+    width: 1px;
+    float: left;
+    margin-top: 0;
+    margin-bottom: 0;
+    transition: all .5s ease-in-out 0s;
+    -webkit-transition: all .5s ease-in-out 0s;
+    -moz-transition: all .5s ease-in-out 0s;
+    -o-transition: all .5s ease-in-out 0s;
+}
+.card:hover hr {
+    width: 200px;
+    float: left;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-top: 4px solid #ffce60;
 }
