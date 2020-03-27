@@ -1,3 +1,6 @@
+li.nav-item {
+    margin: auto 5px;
+}
 .card-img-overlay {
     top: unset;
 }
@@ -16,21 +19,121 @@ header {
 div#header-blk {
     position: absolute;
     display: block;
-    width: 100%;
+    width: 90%;
     z-index: 10;
     top: 0;
     left: 0;
 }
+@media screen and (max-width: 575px) { 
+    #header-blk {
+        padding-top: 5%;
+        margin-left: 10%;
+        margin-right: 10%;
+    } 
+    .caraosen-inner, .carousel-item {
+        height: 600px;
+    }
+    header h1 {
+        font-size: 2rem;
+    }
+    header p {
+        font-size: 0.6rem;
+    }
+    #header-bottom {
+        position: absolute;
+        width: 100%;
+        z-index: 20;
+        margin-top: -200px;
+        margin-bottom: 300px;
+    }
+  }
+@media screen and (min-width: 576px) {
+    #header-blk {
+        padding-top: 5%;
+        margin-left: 10%;
+        margin-right: 10%;
+    } 
+    header h1 {
+        font-size: 3rem;
+    }
+    #header-bottom {
+        position: absolute;
+        width: 100%;
+        z-index: 20;
+        margin-top: -200px;
+        margin-bottom: 300px;
+    }
+    #header-bottom-next {
+        padding-top: 250px;
+    }
+  }
+  @media screen and (min-width: 768px) {
+      #header-blk {
+          padding-top: 5%;
+          margin-left: 10%;
+          margin-right: 10%;
+      } 
+      header h1 {
+          font-size: 4rem;
+      }
+      #header-bottom {
+          position: absolute;
+          width: 100%;
+          z-index: 20;
+          margin-top: -200px;
+          margin-bottom: 300px;
+      }
+      #header-bottom-next {
+          padding-top: 250px;
+      }
+    }
 header h1, header p {
     text-shadow: #000 0px 0px 5px;
-}
-header h1 {
-    font-size: 5rem;
 }
 header p {
     font-size: 1.1rem;
 }
+section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
 .img-invert {
     -webkit-filter: invert(100%);
     filter: invert(100%);    
+}
+.btn {
+    padding: 7px 40px;
+    border-radius: 20px;
+}
+.btn-warning {
+    background-color: #ffce60 !important;
+}
+.badge {
+    padding: 5px 15px;
+}
+.badge-warning {
+    background-color: #ffce60 !important;
+}
+.card-no-line {
+    background: #fff0;
+    border-radius: 0;
+    border: none;
+}
+.card-no-line img {
+    border-radius: 0;
+}
+.card-bottom-line {
+    border: none;
+    border-bottom: #000 solid 4px;
+    border-radius: 0px;
+}
+.bg-warning {
+    background-color: #ffce60 !important;
+}
+.muted-bg {
+    background-color: #ededed;
+}
+.white-muted-bg {
+    background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 80%, rgba(237,237,237,1) 80%); 
 }
