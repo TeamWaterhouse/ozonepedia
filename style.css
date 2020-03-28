@@ -189,3 +189,10 @@ hr {
     margin-bottom: 1rem;
     border-top: 4px solid #ffce60;
 }
+/* About Page */
+#header-about {
+    background-image: url('https://images.pexels.com/photos/302769/pexels-photo-302769.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    background-size: cover;
+    background-position: center;
+}
+/* About Page */
