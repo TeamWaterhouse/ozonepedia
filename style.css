@@ -15,6 +15,27 @@ li.nav-item {
 header {
     position: relative;
 }
+.modal-content {
+    background: none !important;
+    border: none !important;
+}
+button.close {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    z-index: 20;
+    color: #fff;
+    text-shadow: #000 0px 0px 2px;
+}
+#youtube-float {
+    background-image: url(ozonepedia-youtube.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    float: right;
+    /* margin-right: 25px; */
+    padding: 45px 80px;
+}
 div#header-blk {
     position: absolute;
     display: block;
