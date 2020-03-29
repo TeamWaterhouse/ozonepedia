@@ -216,4 +216,12 @@ hr {
     background-size: cover;
     background-position: center;
 }
+.muted-bg .carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: inherit;
+}
+.muted-bg .carousel-control-next, .muted-bg .carousel-control-prev {
+    background-color: #ffffff !important;
+}
 /* About Page */
