@@ -204,7 +204,7 @@ hr {
     -o-transition: all .5s ease-in-out 0s;
 }
 .card:hover hr {
-    width: 200px;
+    width: 150px;
     float: left;
     margin-top: 1rem;
     margin-bottom: 1rem;
