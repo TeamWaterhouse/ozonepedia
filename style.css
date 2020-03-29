@@ -1,6 +1,9 @@
 h1, h2, h3, h4, p {
     font-family: 'Barlow', sans-serif !important;
 }
+.display-4 {
+    font-weight: 900 !important;
+}
 li.nav-item {
     margin: auto 5px;
 }
@@ -223,5 +226,8 @@ hr {
 }
 .muted-bg .carousel-control-next, .muted-bg .carousel-control-prev {
     background-color: #ffffff !important;
+}
+.carousel-caption {
+    top: 25px;
 }
 /* About Page */
