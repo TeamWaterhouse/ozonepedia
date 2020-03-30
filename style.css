@@ -6,6 +6,10 @@ h1, h2 {
     font-size: 5vw !important;
     text-shadow: #000 0px 0px 5px;
 }
+h3 {
+    font-weight: 900 !important;
+    font-size: 3vw !important;
+}
 p.slide-p {
     font-size: 24px;
 }
