@@ -176,4 +176,16 @@ hr {
     z-index: 20;
     margin-top: -100px;
 }
+.nav-logo-left {
+    height: 48px;
+    width: auto;
+}
+.nav-logo-right {
+    height: 32px;
+    width: auto;
+    filter: invert(100%);
+    -webkit-filter: invert(100%);
+    -moz-filter: invert(100%);
+    -o-filter: invert(100%);
+}
 /* About Page */
