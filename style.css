@@ -6,7 +6,7 @@ h1, h2 {
     font-size: 5vw;
     text-shadow: #000 0px 0px 5px;
 }
-.carousel-item p {
+#ozonepediaSlide .carousel-item p {
     width: 75%;
 }
 h3 {
