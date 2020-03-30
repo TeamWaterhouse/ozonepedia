@@ -1,4 +1,4 @@
-h1, h2, h3, h4, p {
+h1, h2, h3, h4, p, .navbar-brand strong {
     font-family: 'Barlow', sans-serif !important;
 }
 h1, h2 {
@@ -48,12 +48,17 @@ button.close {
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
-    padding: 27px 48px;
+    padding: 54px 96px;
     position: absolute;
     z-index: 2;
     right: 5px;
     top: 300px;
 }
+@media screen and (max-width: 575px) {
+    #youtube-float {
+        padding: 27px 48px;
+    }
+  }
 div#header-blk {
     position: absolute;
     display: block;
