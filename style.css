@@ -1,8 +1,13 @@
 h1, h2, h3, h4, p {
     font-family: 'Barlow', sans-serif !important;
 }
-.display-4 {
+h1, h2 {
     font-weight: 900 !important;
+    font-size: 5vw !important;
+    text-shadow: #000 0px 0px 5px;
+}
+p.slide-p {
+    font-size: 24px;
 }
 li.nav-item {
     margin: auto 5px;
@@ -35,9 +40,11 @@ button.close {
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
-    float: right;
-    /* margin-right: 25px; */
-    padding: 45px 80px;
+    padding: 27px 48px;
+    position: absolute;
+    z-index: 2;
+    right: 5px;
+    top: 300px;
 }
 div#header-blk {
     position: absolute;
@@ -47,94 +54,6 @@ div#header-blk {
     top: 0;
     left: 0;
 }
-@media screen and (max-width: 575px) { 
-    #header-blk {
-        padding-top: 3%;
-        margin-left: 5%;
-        margin-right: 5%;
-    } 
-    .caraosen-inner, .carousel-item {
-        height: 300px;
-    }
-    header h1 {
-        font-size: 1.6rem;
-    }
-    header p {
-        font-size: 0.5rem;
-    }
-    #header-bottom {
-        padding-top: 0;
-    }
-    section {
-        padding-top: 50px !important;
-        padding-bottom: 50px !important;
-    }
-    .mandp {
-        margin: 5%;
-    }
-  }
-@media screen and (min-width: 576px) {
-    #header-blk {
-        padding-top: 5%;
-        margin-left: 10%;
-        margin-right: 10%;
-    } 
-    .caraosen-inner, .carousel-item {
-        height: 400px;
-    }
-    header h1 {
-        font-size: 3rem;
-    }
-    #header-bottom {
-        position: relative;
-        width: 100%;
-        z-index: 0;
-        margin-top: 0;
-        margin-bottom: 100px;
-    }
-    #header-bottom-next {
-        padding-top: 0px;
-    }
-    #header-bottom {
-        position: relative;
-        width: auto;
-        margin-bottom: 0;
-        padding-top: 0;
-    }
-    section {
-        padding-top: 75px !important;
-        padding-bottom: 75px !important;
-    }
-    .mandp {
-        margin: 6%;
-    }
-  }
-  @media screen and (min-width: 768px) {
-      #header-blk {
-          padding-top: 5%;
-          margin-left: 10%;
-          margin-right: 10%;
-      } 
-      .caraosen-inner, .carousel-item {
-          height: 550px;
-      }
-      header h1 {
-          font-size: 4rem;
-      }
-      #header-bottom {
-          position: absolute;
-          width: 100%;
-          z-index: 20;
-          margin-top: -200px;
-          margin-bottom: 300px;
-      }
-      #header-bottom-next {
-          padding-top: 200px !important;
-      }
-      .mandp {
-          margin: 8%;
-      }
-    }
 header h1, header p {
     text-shadow: #000 0px 0px 5px;
 }
@@ -142,8 +61,8 @@ header p {
     font-size: 1.1rem;
 }
 section {
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 .img-invert {
     -webkit-filter: invert(100%);
@@ -213,21 +132,40 @@ hr {
     margin-bottom: 1rem;
     border-top: 4px solid #ffce60;
 }
+.muted-bg .carousel-control-next span, .muted-bg .carousel-control-prev span {
+    /* background-color: #ffce60;
+    border: 12px solid #ffce60; */
+    background-color: #000;
+    border: 12px solid #000;
+    border-radius: 50%;
+    padding: 8px;
+}
+#slider-bg1 {
+    background-image: url('https://images.unsplash.com/photo-1584036561566-baf8f5f1b144?ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#slider-bg2 {
+    background-image: url('https://images.unsplash.com/photo-1584521764592-48f33fe7e088?ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#slider-bg1, #slider-bg2 {
+    padding-top: 50px;
+    padding-bottom: 150px;
+    padding: 100px 15% 150px;
+}
 /* About Page */
 #header-about {
     background-image: url('https://images.pexels.com/photos/302769/pexels-photo-302769.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
     background-size: cover;
     background-position: center;
 }
-.muted-bg .carousel-inner {
+#header-bottom {
     position: relative;
-    width: 100%;
-    overflow: inherit;
-}
-.muted-bg .carousel-control-next, .muted-bg .carousel-control-prev {
-    background-color: #ffffff !important;
-}
-.carousel-caption {
-    top: 25px;
+    z-index: 20;
+    margin-top: -100px;
 }
 /* About Page */
