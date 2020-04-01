@@ -1,9 +1,15 @@
-h1, h2, h3, h4, h5, h6, p, .navbar-brand strong {
+body {
+    font-family: 'Barlow', sans-serif;
+}
+h1, h2, h3, h4, h5, h6, p, ul li, .navbar-brand strong {
     font-family: 'Barlow', sans-serif;
 }
 h1, h2 {
     font-weight: 900;
     font-size: 5vw;
+}
+p, ul li {
+    font-size: 17px;
 }
 .carousel-item h1, .carousel-item h2 {
     font-weight: 900;
