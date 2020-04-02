@@ -1,7 +1,10 @@
-body {
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Barlow Condensed', Arial, Tahoma, sans-serif;
+}
+#homepage, #homepage .navbar-brand strong {
     font-family: 'Barlow', sans-serif;
 }
-h1, h2, h3, h4, h5, h6, p, ul li, .navbar-brand strong {
+#homepage h1, #homepage h2, #homepage h3, #homepage h4, #homepage h5, #homepage h6, #homepage p, #homepage ul li {
     font-family: 'Barlow', sans-serif;
 }
 h1, h2 {
@@ -182,6 +185,16 @@ hr {
     padding-top: 50px;
     padding-bottom: 150px;
     padding: 100px 15% 150px;
+}
+.inner-header {
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+.inner-header h1 {
+    font-family: "Barlow Condensed", Arial, Tahoma, sans-serif;
+    font-size: 70px;
+    font-weight: 100;
+    text-transform: none;
 }
 /* About Page */
 #header-about {
