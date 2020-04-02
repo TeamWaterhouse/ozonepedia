@@ -217,6 +217,31 @@ img.img-clients {
 img.img-clients:hover {
     filter: brightness(110%);
 }
+#contact-header-bg {
+    background-image: url('https://images.unsplash.com/photo-1551818255-e6e10975bc17?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1525&q=80');
+    background-size: cover;
+    background-position: center;
+}
+#about-header-bg {
+    background-image: url('https://images.unsplash.com/photo-1518770660439-4636190af475?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80');
+    background-size: cover;
+    background-position: center;
+}
+#article2-header-bg {
+    background-image: url('https://images.unsplash.com/photo-1546412414-8035e1776c9a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80');
+    background-size: cover;
+    background-position: center;
+}
+#article1-header-bg {
+    background-image: url('https://images.unsplash.com/photo-1504813184591-01572f98c85f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=751&q=80');
+    background-size: cover;
+    background-position: center;
+}
+#article3-header-bg {
+    background-image: url('https://images.unsplash.com/photo-1533720335246-5d4e8d662010?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=80');
+    background-size: cover;
+    background-position: center;
+}
 /* About Page */
 /* Contact Page */
 #gmap-ozonepedia {
