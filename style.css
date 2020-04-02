@@ -242,6 +242,26 @@ img.img-clients:hover {
     background-size: cover;
     background-position: center;
 }
+#zeon-header-bg {
+    background-image: url('https://images.unsplash.com/photo-1578496780896-7081cc23c111?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80');
+    background-size: cover;
+    background-position: center;
+}
+#enclose-header-bg {
+    background-image: url('https://images.unsplash.com/photo-1581056771392-8a90ddb76831?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80');
+    background-size: cover;
+    background-position: center;
+}
+#detox-header-bg {
+    background-image: url('https://images.unsplash.com/photo-1483653085484-eb63c9f02547?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80');
+    background-size: cover;
+    background-position: center;
+}
+#witherpro-header-bg {
+    background-image: url('https://images.unsplash.com/photo-1551524164-7d2f9ff12c70?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=751&q=80');
+    background-size: cover;
+    background-position: center;
+}
 /* About Page */
 /* Contact Page */
 #gmap-ozonepedia {
