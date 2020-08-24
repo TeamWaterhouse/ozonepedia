@@ -44,7 +44,7 @@
     <title>Zeon100 - Anti-Corona virus edition Ozonepedia by Team Waterhouse</title>
 </head>
 
-<body>
+<body onload="cartCalc()">
     <nav class="navbar navbar-expand-lg navbar-light">
         <a class="navbar-brand" href="https://ozonepedia.com">
             <img src="team-waterhouse-logo.jpg" alt="" class="nav-logo-left">
@@ -545,21 +545,21 @@
                         </div>
                         <div class="card-footer border-0 bg-white px-5 py-0">
                             <div id="paypal-button-container">
-                                <table>
-                                    <!-- <tr>
+                                <!-- <table>
+                                    <tr>
                                         <td>Quantity:</td>
-                                    </tr> -->
+                                    </tr>
                                     <tr>
                                         <td>
                                             <input class="form-control mb-2 mr-sm-2 shadow-none" type="text"
-                                                name="quantity" value="1">
+                                                name="quantity" value="1" id="prd2qty" onchange="cartCalc(this.value)">
                                         </td>
                                         <td>
                                             <input class="form-control mb-2 mr-sm-2 shadow-none" type="text"
-                                                placeholder="9270" readonly>
+                                                value="9270" id="prd2amnt" readonly>
                                         </td>
                                     </tr>
-                                </table>
+                                </table> -->
                             </div>
                         </div>
                         <!-- <div class="card-footer text-center bg-white border-0">
@@ -712,15 +712,45 @@
     // Required. Replace SB_CLIENT_ID with your sandbox client ID.
         </script>
     <script>
+        // function cartCalc() {
+        //     var prd2qty = document.getElementById("prd2qty").value;
+        //     var prd2amnt = prd2qty * 9270;
+        //     var prd2amnt = document.getElementById("prd2amnt").value;
+        //     alert(prd2amnt);
+        // }
         // var prd2amntval = parseInt(document.getElementById("prd2amnt").value);
         paypal.Buttons({
             createOrder: function (data, actions) {
                 // This function sets up the details of the transaction, including the amount and line item details.
                 return actions.order.create({
                     purchase_units: [{
+
+
+
                         amount: {
-                            value: '0.02'
-                        }
+                            currency_code: "USD",
+                            value: 10.00,
+                            breakdown: {
+                                item_total: {
+                                    value: 10.00,
+                                    currency_code: "USD"
+                                }
+                            }
+                        },
+                        items: [{
+                            name: "Tshirt",
+                            description: "Awesome Tshirt",
+                            quantity: 1,
+                            unit_amount: {
+                                value: "10.00",
+                                currency_code: "USD"
+                            }
+                        },
+
+                        ]
+
+
+
                     }]
                 });
             },
