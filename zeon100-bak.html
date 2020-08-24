@@ -523,13 +523,18 @@
                             <p class="card-text text-center">12v DC for Cars &amp; Ambulances <br>
                                 <!-- <span>12v DC</span> -->
                             </p>
-                            <!-- <form class="">
+                            <!-- <form class="px-4">
                                 <div class="form-row">
                                     <div class="col">
                                         <label class="sr-only" for="prd1qty">Quantity</label>
                                         <input type="number" min="1" max="10"
                                             class="form-control mb-2 mr-sm-2 rounded-0 shadow-none" id="prd2qty"
-                                            placeholder="0">
+                                            placeholder="1">
+                                    </div>
+                                    <div class="col">
+                                        <label class="sr-only" for="prd2amnt">Amount</label>
+                                        <input type="number" class="form-control mb-2 mr-sm-2 rounded-0 shadow-none"
+                                            id="prd2amnt" placeholder="0.10" readonly>
                                     </div>
                                     <div class="col">
                                         <button type="submit"
@@ -539,7 +544,23 @@
                             </form> -->
                         </div>
                         <div class="card-footer border-0 bg-white px-5 py-0">
-                            <div id="paypal-button-container"></div>
+                            <div id="paypal-button-container">
+                                <table>
+                                    <!-- <tr>
+                                        <td>Quantity:</td>
+                                    </tr> -->
+                                    <tr>
+                                        <td>
+                                            <input class="form-control mb-2 mr-sm-2 shadow-none" type="text"
+                                                name="quantity" value="1">
+                                        </td>
+                                        <td>
+                                            <input class="form-control mb-2 mr-sm-2 shadow-none" type="text"
+                                                placeholder="9270" readonly>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
                         </div>
                         <!-- <div class="card-footer text-center bg-white border-0">
                             <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
@@ -691,13 +712,14 @@
     // Required. Replace SB_CLIENT_ID with your sandbox client ID.
         </script>
     <script>
+        // var prd2amntval = parseInt(document.getElementById("prd2amnt").value);
         paypal.Buttons({
             createOrder: function (data, actions) {
                 // This function sets up the details of the transaction, including the amount and line item details.
                 return actions.order.create({
                     purchase_units: [{
                         amount: {
-                            value: '0.01'
+                            value: '0.02'
                         }
                     }]
                 });
