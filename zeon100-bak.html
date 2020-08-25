@@ -44,7 +44,7 @@
     <title>Zeon100 - Anti-Corona virus edition Ozonepedia by Team Waterhouse</title>
 </head>
 
-<body onload="cartCalc()">
+<body>
     <nav class="navbar navbar-expand-lg navbar-light">
         <a class="navbar-brand" href="https://ozonepedia.com">
             <img src="team-waterhouse-logo.jpg" alt="" class="nav-logo-left">
@@ -422,10 +422,10 @@
                                 src="https://www.youtube.com/embed/jO4yf1-VU9Q" allowfullscreen></iframe>
                         </div>
                         <div class="card-body pt-0">
-                            <ul class="nav nav-pills nav-fill">
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">
-                                        <svg width="1.5em" height="1.5em" viewBox="0 0 16 16" class="bi bi-card-image"
+                            <h4 class="card-title text-center my-3">
+                                <span class="px-3">
+                                    <a class="card-link" href="#">
+                                        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-card-image"
                                             fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                                             <path fill-rule="evenodd"
                                                 d="M14.5 3h-13a.5.5 0 0 0-.5.5v9a.5.5 0 0 0 .5.5h13a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5zm-13-1A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-13z" />
@@ -435,48 +435,37 @@
                                                 d="M4.502 7a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z" />
                                         </svg>
                                     </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">
-                                        <svg width="1.5em" height="1.5em" viewBox="0 0 16 16"
-                                            class="bi bi-collection-play" fill="currentColor"
-                                            xmlns="http://www.w3.org/2000/svg">
+                                </span>
+                                <span class="px-3">Zeon Domestic</span>
+                                <span class="px-3">
+                                    <a class="card-link" href="#">
+                                        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-collection-play"
+                                            fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                                             <path fill-rule="evenodd"
                                                 d="M14.5 13.5h-13A.5.5 0 0 1 1 13V6a.5.5 0 0 1 .5-.5h13a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-.5.5zm-13 1A1.5 1.5 0 0 1 0 13V6a1.5 1.5 0 0 1 1.5-1.5h13A1.5 1.5 0 0 1 16 6v7a1.5 1.5 0 0 1-1.5 1.5h-13zM2 3a.5.5 0 0 0 .5.5h11a.5.5 0 0 0 0-1h-11A.5.5 0 0 0 2 3zm2-2a.5.5 0 0 0 .5.5h7a.5.5 0 0 0 0-1h-7A.5.5 0 0 0 4 1z" />
                                             <path fill-rule="evenodd"
                                                 d="M6.258 6.563a.5.5 0 0 1 .507.013l4 2.5a.5.5 0 0 1 0 .848l-4 2.5A.5.5 0 0 1 6 12V7a.5.5 0 0 1 .258-.437z" />
                                         </svg>
                                     </a>
-                                </li>
-                            </ul>
-                            <h4 class="card-title text-center">Zeon Domestic</h4>
-                            <p class="card-text text-center">for Home &amp; Pubpic purpose <br>
-                                <span>220v AC</span>
+                                </span>
+                            </h4>
+                            <p class="card-text text-center">For Home &amp; Public <strong class="text-danger">₹9470</strong><br>
+                                <span>Power : 220v AC</span>
                             </p>
-                            <!-- <form class="">
-                                <div class="form-row">
-                                    <div class="col">
-                                        <label class="sr-only" for="prd1qty">Quantity</label>
-                                        <input type="number" min="1" max="10"
-                                            class="form-control mb-2 mr-sm-2 rounded-0 shadow-none" id="prd2qty"
-                                            placeholder="0">
-                                    </div>
-                                    <div class="col">
-                                        <button type="submit"
-                                            class="btn btn-block btn-warning mb-2 rounded-0 shadow-none">Buy</button>
-                                    </div>
-                                </div>
-                            </form> -->
-                        </div>
-                        <div class="card-footer text-center bg-white border-0">
-                            <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-                                <input type="hidden" name="cmd" value="_s-xclick">
-                                <input type="hidden" name="hosted_button_id" value="LGKY4G65P3D2W">
-                                <input type="image" src="https://www.paypalobjects.com/en_GB/i/btn/btn_buynowCC_LG.gif"
-                                    border="0" name="submit" alt="PayPal – The safer, easier way to pay online!">
-                                <img alt="" border="0" src="https://www.paypalobjects.com/en_GB/i/scr/pixel.gif"
-                                    width="1" height="1">
-                            </form>
+                            <div class="px-5">
+                                <div id="paypal-button-container1" class="px-4 my-2"></div>
+                            </div>
+                            <div class="text-center">
+                                <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                                    <input type="hidden" name="cmd" value="_s-xclick">
+                                    <input type="hidden" name="hosted_button_id" value="LGKY4G65P3D2W">
+                                    <input type="image"
+                                        src="https://www.paypalobjects.com/en_GB/i/btn/btn_buynow_LG.gif" border="0"
+                                        name="submit" alt="PayPal – The safer, easier way to pay online!">
+                                    <img alt="" border="0" src="https://www.paypalobjects.com/en_GB/i/scr/pixel.gif"
+                                        width="1" height="1">
+                                </form>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -487,12 +476,6 @@
                                 src="https://www.youtube.com/embed/hUaaUTxyIvE" allowfullscreen></iframe>
                         </div>
                         <div class="card-body pt-0">
-                            <!-- <ul class="nav nav-pills nav-fill">
-                                <li class="nav-item">
-                                </li>
-                                <li class="nav-item">
-                                </li>
-                            </ul> -->
                             <h4 class="card-title text-center my-3">
                                 <span class="px-4">
                                     <a class="card-link" href="#">
@@ -520,58 +503,26 @@
                                     </a>
                                 </span>
                             </h4>
-                            <p class="card-text text-center">12v DC for Cars &amp; Ambulances <br>
-                                <!-- <span>12v DC</span> -->
+                            <p class="card-text text-center">For Cars &amp; Ambulances <strong class="text-danger">₹9270</strong><br>
+                                <span>Power : 12v DC</span>
                             </p>
-                            <!-- <form class="px-4">
-                                <div class="form-row">
-                                    <div class="col">
-                                        <label class="sr-only" for="prd1qty">Quantity</label>
-                                        <input type="number" min="1" max="10"
-                                            class="form-control mb-2 mr-sm-2 rounded-0 shadow-none" id="prd2qty"
-                                            placeholder="1">
-                                    </div>
-                                    <div class="col">
-                                        <label class="sr-only" for="prd2amnt">Amount</label>
-                                        <input type="number" class="form-control mb-2 mr-sm-2 rounded-0 shadow-none"
-                                            id="prd2amnt" placeholder="0.10" readonly>
-                                    </div>
-                                    <div class="col">
-                                        <button type="submit"
-                                            class="btn btn-block btn-warning mb-2 rounded-0 shadow-none">Buy</button>
-                                    </div>
+                            <div class="text-center">
+                                <div class="px-5">
+                                    <div id="paypal-button-container2" class="px-4 my-2"></div>
                                 </div>
-                            </form> -->
-                        </div>
-                        <div class="card-footer border-0 bg-white px-5 py-0">
-                            <div id="paypal-button-container">
-                                <!-- <table>
-                                    <tr>
-                                        <td>Quantity:</td>
-                                    </tr>
-                                    <tr>
-                                        <td>
-                                            <input class="form-control mb-2 mr-sm-2 shadow-none" type="text"
-                                                name="quantity" value="1" id="prd2qty" onchange="cartCalc(this.value)">
-                                        </td>
-                                        <td>
-                                            <input class="form-control mb-2 mr-sm-2 shadow-none" type="text"
-                                                value="9270" id="prd2amnt" readonly>
-                                        </td>
-                                    </tr>
-                                </table> -->
+                                <div class="text-center">
+                                    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                                        <input type="hidden" name="cmd" value="_s-xclick">
+                                        <input type="hidden" name="hosted_button_id" value="5VZ35F2P97Z5G">
+                                        <input type="image"
+                                            src="https://www.paypalobjects.com/en_GB/i/btn/btn_buynow_LG.gif" border="0"
+                                            name="submit" alt="PayPal – The safer, easier way to pay online!">
+                                        <img alt="" border="0" src="https://www.paypalobjects.com/en_GB/i/scr/pixel.gif"
+                                            width="1" height="1">
+                                    </form>
+                                </div>
                             </div>
                         </div>
-                        <!-- <div class="card-footer text-center bg-white border-0">
-                            <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-                                <input type="hidden" name="cmd" value="_s-xclick">
-                                <input type="hidden" name="hosted_button_id" value="5VZ35F2P97Z5G">
-                                <input type="image" src="https://www.paypalobjects.com/en_GB/i/btn/btn_buynow_SM.gif"
-                                    border="0" name="submit" alt="PayPal – The safer, easier way to pay online!">
-                                <img alt="" border="0" src="https://www.paypalobjects.com/en_GB/i/scr/pixel.gif"
-                                    width="1" height="1">
-                            </form>
-                        </div> -->
                     </div>
                 </div>
                 <div class="col-12 col-md-4">
@@ -581,10 +532,10 @@
                                 src="https://www.youtube.com/embed/jO4yf1-VU9Q" allowfullscreen></iframe>
                         </div>
                         <div class="card-body pt-0">
-                            <ul class="nav nav-pills nav-fill">
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">
-                                        <svg width="1.5em" height="1.5em" viewBox="0 0 16 16" class="bi bi-card-image"
+                            <h4 class="card-title text-center my-3">
+                                <span class="px-4">
+                                    <a class="card-link" href="#">
+                                        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-card-image"
                                             fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                                             <path fill-rule="evenodd"
                                                 d="M14.5 3h-13a.5.5 0 0 0-.5.5v9a.5.5 0 0 0 .5.5h13a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 0-.5-.5zm-13-1A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-13z" />
@@ -594,48 +545,37 @@
                                                 d="M4.502 7a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z" />
                                         </svg>
                                     </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">
-                                        <svg width="1.5em" height="1.5em" viewBox="0 0 16 16"
-                                            class="bi bi-collection-play" fill="currentColor"
-                                            xmlns="http://www.w3.org/2000/svg">
+                                </span>
+                                <span class="px-4">Zeon Dual</span>
+                                <span class="px-4">
+                                    <a class="card-link" href="#">
+                                        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-collection-play"
+                                            fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                                             <path fill-rule="evenodd"
                                                 d="M14.5 13.5h-13A.5.5 0 0 1 1 13V6a.5.5 0 0 1 .5-.5h13a.5.5 0 0 1 .5.5v7a.5.5 0 0 1-.5.5zm-13 1A1.5 1.5 0 0 1 0 13V6a1.5 1.5 0 0 1 1.5-1.5h13A1.5 1.5 0 0 1 16 6v7a1.5 1.5 0 0 1-1.5 1.5h-13zM2 3a.5.5 0 0 0 .5.5h11a.5.5 0 0 0 0-1h-11A.5.5 0 0 0 2 3zm2-2a.5.5 0 0 0 .5.5h7a.5.5 0 0 0 0-1h-7A.5.5 0 0 0 4 1z" />
                                             <path fill-rule="evenodd"
                                                 d="M6.258 6.563a.5.5 0 0 1 .507.013l4 2.5a.5.5 0 0 1 0 .848l-4 2.5A.5.5 0 0 1 6 12V7a.5.5 0 0 1 .258-.437z" />
                                         </svg>
                                     </a>
-                                </li>
-                            </ul>
-                            <h4 class="card-title text-center">Zeon Dual</h4>
-                            <p class="card-text text-center">for Domestic &amp; Car purpose <br>
-                                <span>220v AC / 12v DC</span>
+                                </span>
+                            </h4>
+                            <p class="card-text text-center">For Domestic &amp; Car <strong class="text-danger">₹11918</strong><br>
+                                Power : 220v AC / 12v DC
                             </p>
-                            <!-- <form class="">
-                                <div class="form-row">
-                                    <div class="col">
-                                        <label class="sr-only" for="prd1qty">Quantity</label>
-                                        <input type="number" min="1" max="10"
-                                            class="form-control mb-2 mr-sm-2 rounded-0 shadow-none" id="prd2qty"
-                                            placeholder="0">
-                                    </div>
-                                    <div class="col">
-                                        <button type="submit"
-                                            class="btn btn-block btn-warning mb-2 rounded-0 shadow-none">Buy</button>
-                                    </div>
-                                </div>
-                            </form> -->
-                        </div>
-                        <div class="card-footer text-center bg-white border-0">
-                            <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-                                <input type="hidden" name="cmd" value="_s-xclick">
-                                <input type="hidden" name="hosted_button_id" value="VBWKDXHR32DXL">
-                                <input type="image" src="https://www.paypalobjects.com/en_GB/i/btn/btn_buynowCC_LG.gif"
-                                    border="0" name="submit" alt="PayPal – The safer, easier way to pay online!">
-                                <img alt="" border="0" src="https://www.paypalobjects.com/en_GB/i/scr/pixel.gif"
-                                    width="1" height="1">
-                            </form>
+                            <div class="px-5">
+                                <div id="paypal-button-container3" class="px-4 my-2"></div>
+                            </div>
+                            <div class="text-center">
+                                <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                                    <input type="hidden" name="cmd" value="_s-xclick">
+                                    <input type="hidden" name="hosted_button_id" value="VBWKDXHR32DXL">
+                                    <input type="image"
+                                        src="https://www.paypalobjects.com/en_GB/i/btn/btn_buynow_LG.gif" border="0"
+                                        name="submit" alt="PayPal – The safer, easier way to pay online!">
+                                    <img alt="" border="0" src="https://www.paypalobjects.com/en_GB/i/scr/pixel.gif"
+                                        width="1" height="1">
+                                </form>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -711,58 +651,81 @@
         src="https://www.paypal.com/sdk/js?client-id=AftBC_uBfOmarwitLuWbRYnQPkOpsZzefN4VHsUaHUMz0sW-_oHzeQvdRvTF3DqjmYaRZaHwVt7_vmqy">
     // Required. Replace SB_CLIENT_ID with your sandbox client ID.
         </script>
+    <!-- <script src="https://www.paypal.com/sdk/js?client-id=sb&currency=USD" data-sdk-integration-source="button-factory"></script> -->
     <script>
-        // function cartCalc() {
-        //     var prd2qty = document.getElementById("prd2qty").value;
-        //     var prd2amnt = prd2qty * 9270;
-        //     var prd2amnt = document.getElementById("prd2amnt").value;
-        //     alert(prd2amnt);
-        // }
-        // var prd2amntval = parseInt(document.getElementById("prd2amnt").value);
         paypal.Buttons({
+            style: {
+                shape: 'pill',
+                color: 'white',
+                layout: 'horizontal',
+                label: 'paypal',
+
+            },
             createOrder: function (data, actions) {
-                // This function sets up the details of the transaction, including the amount and line item details.
                 return actions.order.create({
                     purchase_units: [{
-
-
-
                         amount: {
-                            currency_code: "USD",
-                            value: 10.00,
-                            breakdown: {
-                                item_total: {
-                                    value: 10.00,
-                                    currency_code: "USD"
-                                }
-                            }
-                        },
-                        items: [{
-                            name: "Tshirt",
-                            description: "Awesome Tshirt",
-                            quantity: 1,
-                            unit_amount: {
-                                value: "10.00",
-                                currency_code: "USD"
-                            }
-                        },
-
-                        ]
-
-
-
+                            value: '127.41'
+                        }
                     }]
                 });
             },
             onApprove: function (data, actions) {
-                // This function captures the funds from the transaction.
                 return actions.order.capture().then(function (details) {
-                    // This function shows a transaction success message to your buyer.
-                    alert('Transaction completed by ' + details.payer.name.given_name);
+                    alert('Transaction completed by ' + details.payer.name.given_name + '!');
                 });
             }
-        }).render('#paypal-button-container');
-    //This function displays Smart Payment Buttons on your web page.
+        }).render('#paypal-button-container1');
+
+
+        paypal.Buttons({
+            style: {
+                shape: 'pill',
+                color: 'white',
+                layout: 'horizontal',
+                label: 'paypal',
+
+            },
+            createOrder: function (data, actions) {
+                return actions.order.create({
+                    purchase_units: [{
+                        amount: {
+                            value: '124.72'
+                        }
+                    }]
+                });
+            },
+            onApprove: function (data, actions) {
+                return actions.order.capture().then(function (details) {
+                    alert('Transaction completed by ' + details.payer.name.given_name + '!');
+                });
+            }
+        }).render('#paypal-button-container2');
+
+
+        paypal.Buttons({
+            style: {
+                shape: 'pill',
+                // color: 'white',
+                layout: 'horizontal',
+                label: 'paypal',
+
+            },
+            createOrder: function (data, actions) {
+                return actions.order.create({
+                    purchase_units: [{
+                        amount: {
+                            value: '160.35'
+                        }
+                    }]
+                });
+            },
+            onApprove: function (data, actions) {
+                return actions.order.capture().then(function (details) {
+                    alert('Transaction completed by ' + details.payer.name.given_name + '!');
+                });
+            }
+        }).render('#paypal-button-container3');
     </script>
 </body>
 
