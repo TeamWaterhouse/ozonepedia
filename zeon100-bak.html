@@ -452,9 +452,9 @@
                             <p class="card-text text-center">For Home &amp; Public <strong class="text-danger">₹9470</strong><br>
                                 <span>Power : 220v AC</span>
                             </p>
-                            <div class="px-5">
+                            <!-- <div class="px-5">
                                 <div id="paypal-button-container1" class="px-4 my-2"></div>
-                            </div>
+                            </div> -->
                             <div class="text-center">
                                 <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
                                     <input type="hidden" name="cmd" value="_s-xclick">
@@ -507,9 +507,9 @@
                                 <span>Power : 12v DC</span>
                             </p>
                             <div class="text-center">
-                                <div class="px-5">
+                                <!-- <div class="px-5">
                                     <div id="paypal-button-container2" class="px-4 my-2"></div>
-                                </div>
+                                </div> -->
                                 <div class="text-center">
                                     <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
                                         <input type="hidden" name="cmd" value="_s-xclick">
@@ -562,9 +562,9 @@
                             <p class="card-text text-center">For Domestic &amp; Car <strong class="text-danger">₹11918</strong><br>
                                 Power : 220v AC / 12v DC
                             </p>
-                            <div class="px-5">
+                            <!-- <div class="px-5">
                                 <div id="paypal-button-container3" class="px-4 my-2"></div>
-                            </div>
+                            </div> -->
                             <div class="text-center">
                                 <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
                                     <input type="hidden" name="cmd" value="_s-xclick">
@@ -653,79 +653,81 @@
         </script>
     <!-- <script src="https://www.paypal.com/sdk/js?client-id=sb&currency=USD" data-sdk-integration-source="button-factory"></script> -->
     <script>
-        paypal.Buttons({
-            style: {
-                shape: 'pill',
-                color: 'white',
-                layout: 'horizontal',
-                label: 'paypal',
 
-            },
-            createOrder: function (data, actions) {
-                return actions.order.create({
-                    purchase_units: [{
-                        amount: {
-                            value: '127.41'
-                        }
-                    }]
-                });
-            },
-            onApprove: function (data, actions) {
-                return actions.order.capture().then(function (details) {
-                    alert('Transaction completed by ' + details.payer.name.given_name + '!');
-                });
-            }
-        }).render('#paypal-button-container1');
+        // paypal.Buttons({
+        //     style: {
+        //         shape: 'pill',
+        //         color: 'white',
+        //         layout: 'horizontal',
+        //         label: 'paypal',
 
-
-        paypal.Buttons({
-            style: {
-                shape: 'pill',
-                color: 'white',
-                layout: 'horizontal',
-                label: 'paypal',
-
-            },
-            createOrder: function (data, actions) {
-                return actions.order.create({
-                    purchase_units: [{
-                        amount: {
-                            value: '124.72'
-                        }
-                    }]
-                });
-            },
-            onApprove: function (data, actions) {
-                return actions.order.capture().then(function (details) {
-                    alert('Transaction completed by ' + details.payer.name.given_name + '!');
-                });
-            }
-        }).render('#paypal-button-container2');
+        //     },
+        //     createOrder: function (data, actions) {
+        //         return actions.order.create({
+        //             purchase_units: [{
+        //                 amount: {
+        //                     value: '127.41'
+        //                 }
+        //             }]
+        //         });
+        //     },
+        //     onApprove: function (data, actions) {
+        //         return actions.order.capture().then(function (details) {
+        //             alert('Transaction completed by ' + details.payer.name.given_name + '!');
+        //         });
+        //     }
+        // }).render('#paypal-button-container1');
 
 
-        paypal.Buttons({
-            style: {
-                shape: 'pill',
-                // color: 'white',
-                layout: 'horizontal',
-                label: 'paypal',
+        // paypal.Buttons({
+        //     style: {
+        //         shape: 'pill',
+        //         color: 'white',
+        //         layout: 'horizontal',
+        //         label: 'paypal',
 
-            },
-            createOrder: function (data, actions) {
-                return actions.order.create({
-                    purchase_units: [{
-                        amount: {
-                            value: '160.35'
-                        }
-                    }]
-                });
-            },
-            onApprove: function (data, actions) {
-                return actions.order.capture().then(function (details) {
-                    alert('Transaction completed by ' + details.payer.name.given_name + '!');
-                });
-            }
-        }).render('#paypal-button-container3');
+        //     },
+        //     createOrder: function (data, actions) {
+        //         return actions.order.create({
+        //             purchase_units: [{
+        //                 amount: {
+        //                     value: '124.72'
+        //                 }
+        //             }]
+        //         });
+        //     },
+        //     onApprove: function (data, actions) {
+        //         return actions.order.capture().then(function (details) {
+        //             alert('Transaction completed by ' + details.payer.name.given_name + '!');
+        //         });
+        //     }
+        // }).render('#paypal-button-container2');
+
+
+        // paypal.Buttons({
+        //     style: {
+        //         shape: 'pill',
+        //         // color: 'white',
+        //         layout: 'horizontal',
+        //         label: 'paypal',
+
+        //     },
+        //     createOrder: function (data, actions) {
+        //         return actions.order.create({
+        //             purchase_units: [{
+        //                 amount: {
+        //                     value: '160.35'
+        //                 }
+        //             }]
+        //         });
+        //     },
+        //     onApprove: function (data, actions) {
+        //         return actions.order.capture().then(function (details) {
+        //             alert('Transaction completed by ' + details.payer.name.given_name + '!');
+        //         });
+        //     }
+        // }).render('#paypal-button-container3');
+    
     </script>
 </body>
 
