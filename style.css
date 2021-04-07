@@ -251,8 +251,12 @@ img.img-clients:hover {
     background-position: center;
 }
 #article3-header-bg {
+    background-image: url('https://images.unsplash.com/photo-1533720335246-5d4e8d662010?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=80');
+    background-size: cover;
+    background-position: center;
+}
+#article4-header-bg {
     background-image: url('https://images.pexels.com/photos/7395554/pexels-photo-7395554.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
-    /* background-image: url('https://images.unsplash.com/photo-1533720335246-5d4e8d662010?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=80'); */
     background-size: cover;
     background-position: center;
 }
