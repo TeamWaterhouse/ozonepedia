@@ -260,6 +260,11 @@ img.img-clients:hover {
     background-size: cover;
     background-position: center;
 }
+#article5-header-bg {
+    background-image: url('https://images.unsplash.com/photo-1533077162801-86490c593afb?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=668&q=80');
+    background-size: cover;
+    background-position: center;
+}
 #zeon-header-bg {
     background-image: url('https://images.unsplash.com/photo-1578496780896-7081cc23c111?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80');
     background-size: cover;
