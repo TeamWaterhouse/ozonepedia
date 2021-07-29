@@ -297,3 +297,11 @@ img.img-clients:hover {
     height: 500px
 }
 /* Contact Page */
+.parallax {
+    background-image: url("https://cufo.columbia.edu/sites/default/files/styles/cu_crop/public/content/JLGSC%20Cooling%20Towers.JPG?itok=hwyVjGGs");
+    /* background-image: url("http://www.hlzanewz.com/wp-content/uploads/2015/08/CC-003-768x576.jpg"); */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
