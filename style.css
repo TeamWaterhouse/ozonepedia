@@ -377,3 +377,11 @@ img.img-clients:hover {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+#parallax {
+    background-image: url("https://images.unsplash.com/photo-1541441056316-443fff347c40?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=750&q=80");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
