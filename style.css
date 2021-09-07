@@ -1,56 +1,71 @@
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Barlow Condensed', Arial, Tahoma, sans-serif;
 }
+
 #homepage, #homepage .navbar-brand strong {
     font-family: 'Barlow', sans-serif;
 }
+
 #homepage h1, #homepage h2, #homepage h3, #homepage h4, #homepage h5, #homepage h6, #homepage p, #homepage ul li {
     font-family: 'Barlow', sans-serif;
 }
+
 h1, h2 {
     font-weight: 900;
     font-size: 5vw;
 }
+
 p, ul li {
     font-size: 17px;
 }
+
 .carousel-item h1, .carousel-item h2 {
     font-weight: 900;
     font-size: 5vw;
     text-shadow: #000 0px 0px 5px;
 }
+
 #ozonepediaSlide .carousel-item p {
     width: 75%;
 }
+
 h3 {
     font-weight: 900;
     font-size: 2.3rem;
 }
+
 h4 {
     font-weight: 900;
     font-size: 1.5rem;
 }
+
 p.slide-p {
     font-size: 24px;
 }
+
 li.nav-item {
     margin: auto 5px;
 }
+
 .card-img-overlay {
     top: unset;
 }
+
 #man-bg {
     background-image: url('https://images.pexels.com/photos/2897883/pexels-photo-2897883.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
     background-size: cover;
     background-position: center;
 }
+
 header {
     position: relative;
 }
+
 .modal-content {
     background: none !important;
     border: none !important;
 }
+
 button.close {
     position: absolute;
     top: 0px;
@@ -59,6 +74,7 @@ button.close {
     color: #fff;
     text-shadow: #000 0px 0px 2px;
 }
+
 #youtube-float {
     background-image: url(ozonepedia-youtube.png);
     background-size: contain;
@@ -70,11 +86,13 @@ button.close {
     right: 5px;
     top: 300px;
 }
+
 @media screen and (max-width: 575px) {
     #youtube-float {
         padding: 27px 48px;
     }
-  }
+}
+
 div#header-blk {
     position: absolute;
     display: block;
@@ -83,67 +101,84 @@ div#header-blk {
     top: 0;
     left: 0;
 }
+
 header h1, header p {
     text-shadow: #000 0px 0px 5px;
 }
+
 header p {
     font-size: 1.1rem;
 }
+
 section {
     padding-top: 60px;
     padding-bottom: 60px;
 }
+
 .img-invert {
     -webkit-filter: invert(100%);
-    filter: invert(100%);    
+    filter: invert(100%);
 }
+
 .btn {
     padding: 7px 30px;
     border-radius: 20px;
 }
+
 .btn-warning {
     background-color: #ffce60 !important;
 }
+
 .badge {
     padding: 5px 15px;
 }
+
 .badge-warning {
     background-color: #ffce60 !important;
 }
+
 .card-img-overlay {
     /* background-color: #00000080; */
-    background: rgb(0,0,0);
-    background: -moz-linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.2) 20%, rgba(0,0,0,0.55) 45%, rgba(0,0,0,0.75) 75%);
-    background: -webkit-linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.2) 20%, rgba(0,0,0,0.55) 45%, rgba(0,0,0,0.75) 75%);
-    background: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.2) 20%, rgba(0,0,0,0.55) 45%, rgba(0,0,0,0.75) 75%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#000000",GradientType=1);
+    background: rgb(0, 0, 0);
+    background: -moz-linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.2) 20%, rgba(0, 0, 0, 0.55) 45%, rgba(0, 0, 0, 0.75) 75%);
+    background: -webkit-linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.2) 20%, rgba(0, 0, 0, 0.55) 45%, rgba(0, 0, 0, 0.75) 75%);
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.2) 20%, rgba(0, 0, 0, 0.55) 45%, rgba(0, 0, 0, 0.75) 75%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000", endColorstr="#000000", GradientType=1);
 }
+
 .card-no-line {
     background: #fff0;
     border-radius: 0;
     border: none;
 }
+
 .card-no-line img {
     border-radius: 0;
 }
+
 .card-bottom-line {
     border: none;
     border-bottom: #000 solid 4px;
     border-radius: 0px;
 }
+
 .bg-warning {
     background-color: #ffce60 !important;
 }
+
 .muted-bg {
     background-color: #ededed;
 }
+
 .bg-dark {
     background-color: #2e2821 !important;
 }
+
 .white-muted-bg {
-    background: rgb(255,255,255);
-    background: linear-gradient(180deg, rgba(255,255,255,1) 80%, rgba(237,237,237,1) 80%); 
+    background: rgb(255, 255, 255);
+    background: linear-gradient(180deg, rgba(255, 255, 255, 1) 80%, rgba(237, 237, 237, 1) 80%);
 }
+
 hr {
     width: 1px;
     float: left;
@@ -154,6 +189,7 @@ hr {
     -moz-transition: all .5s ease-in-out 0s;
     -o-transition: all .5s ease-in-out 0s;
 }
+
 .card:hover hr {
     width: 150px;
     float: left;
@@ -161,6 +197,7 @@ hr {
     margin-bottom: 1rem;
     border-top: 4px solid #ffce60;
 }
+
 .muted-bg .carousel-control-next span, .muted-bg .carousel-control-prev span {
     /* background-color: #ffce60;
     border: 12px solid #ffce60; */
@@ -169,48 +206,58 @@ hr {
     border-radius: 50%;
     padding: 8px;
 }
+
 #slider-bg1 {
     background-image: url('https://images.unsplash.com/photo-1584036561566-baf8f5f1b144?ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
+
 #slider-bg2 {
     background-image: url('https://images.unsplash.com/photo-1584521764592-48f33fe7e088?ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
+
 #slider-bg1, #slider-bg2 {
     padding-top: 50px;
     padding-bottom: 150px;
     padding: 100px 15% 150px;
 }
+
 .inner-header {
     padding-top: 200px;
     padding-bottom: 200px;
 }
+
 .inner-header h1 {
     font-family: "Barlow Condensed", Arial, Tahoma, sans-serif;
     font-size: 70px;
     font-weight: 100;
     text-transform: none;
 }
+
 /* About Page */
+
 #header-about {
     background-image: url('https://images.pexels.com/photos/302769/pexels-photo-302769.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
     background-size: cover;
     background-position: center;
 }
+
 #header-bottom {
     position: relative;
     z-index: 20;
     margin-top: -100px;
 }
+
 .nav-logo-left {
     height: 48px;
     width: auto;
 }
+
 .nav-logo-right {
     height: 32px;
     width: auto;
@@ -219,6 +266,7 @@ hr {
     -moz-filter: invert(100%);
     -o-filter: invert(100%);
 }
+
 img.img-clients {
     width: 120px;
     height: auto;
@@ -227,76 +275,100 @@ img.img-clients {
     cursor: pointer;
     filter: grayscale(50%);
 }
+
 img.img-clients:hover {
     filter: brightness(110%);
 }
+
 #contact-header-bg {
     background-image: url('https://images.unsplash.com/photo-1551818255-e6e10975bc17?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1525&q=80');
     background-size: cover;
     background-position: center;
 }
+
 #about-header-bg {
     background-image: url('https://images.unsplash.com/photo-1518770660439-4636190af475?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80');
     background-size: cover;
     background-position: center;
 }
+
 #article2-header-bg {
     background-image: url('https://images.unsplash.com/photo-1546412414-8035e1776c9a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80');
     background-size: cover;
     background-position: center;
 }
+
 #article1-header-bg {
     background-image: url('https://images.unsplash.com/photo-1504813184591-01572f98c85f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=751&q=80');
     background-size: cover;
     background-position: center;
 }
+
 #article3-header-bg {
     background-image: url('https://images.unsplash.com/photo-1533720335246-5d4e8d662010?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=80');
     background-size: cover;
     background-position: center;
 }
+
 #article4-header-bg {
     background-image: url('https://images.pexels.com/photos/7395554/pexels-photo-7395554.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
     background-size: cover;
     background-position: center;
 }
+
 #article5-header-bg {
     background-image: url('https://images.unsplash.com/photo-1533077162801-86490c593afb?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=668&q=80');
     background-size: cover;
     background-position: bottom;
 }
+
 #article6-header-bg {
     background-image: url('https://images.pexels.com/photos/2478248/pexels-photo-2478248.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
     background-size: cover;
     background-position: center;
 }
+
+#article7-header-bg {
+    background-image: url("https://www.akvagroup.com/Products/Land%20based%20aquaculture/Tanks/Resirc%20tanks.jpg?w=651&h=564");
+    background-size: cover;
+    background-position: center;
+}
+
 #zeon-header-bg {
     background-image: url('https://images.unsplash.com/photo-1578496780896-7081cc23c111?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80');
     background-size: cover;
     background-position: center;
 }
+
 #enclose-header-bg {
     background-image: url('https://images.unsplash.com/photo-1581056771392-8a90ddb76831?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80');
     background-size: cover;
     background-position: center;
 }
+
 #detox-header-bg {
     background-image: url('https://images.unsplash.com/photo-1483653085484-eb63c9f02547?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80');
     background-size: cover;
     background-position: center;
 }
+
 #witherpro-header-bg {
     background-image: url('https://images.unsplash.com/photo-1551524164-7d2f9ff12c70?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=751&q=80');
     background-size: cover;
     background-position: center;
 }
+
 /* About Page */
+
 /* Contact Page */
+
 #gmap-ozonepedia {
     width: 100%;
     height: 500px
 }
+
 /* Contact Page */
+
 .parallax {
     background-image: url("https://cufo.columbia.edu/sites/default/files/styles/cu_crop/public/content/JLGSC%20Cooling%20Towers.JPG?itok=hwyVjGGs");
     /* background-image: url("http://www.hlzanewz.com/wp-content/uploads/2015/08/CC-003-768x576.jpg"); */
@@ -304,4 +376,4 @@ img.img-clients:hover {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-  }
+}
